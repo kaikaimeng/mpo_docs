@@ -2,12 +2,10 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
-
-release = '0.1'
-version = '0.1.0'
+project = 'mpo_api'
+copyright = '2024, GW Instek'
+author = 'GW Instek'
+release = '1.0.0'
 
 # -- General configuration
 
@@ -30,6 +28,7 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_static_path = ['_static']
 
 # -- Options for EPUB output
-epub_show_urls = 'footnote'
+#epub_show_urls = 'footnote'
